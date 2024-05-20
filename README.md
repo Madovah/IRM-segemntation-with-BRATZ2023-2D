@@ -14,8 +14,7 @@ For details --> [BRATZ-2023](https://www.synapse.org/#!Synapse:syn51156910/wiki/
 
 The dataset comprises 1251 patient cases labeled by expert radiologists. However, cases in the validation set are not labeled.
 
-The dataset is organized in the following directory structure. Please make any necessary adjustments based on your specific requirements and ensure to include additional supporting files in the dataset directory.
-
+The dataset is organized in the following directory structure:
 ![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/IRM_DATASET_STRUCTURE.png)
 
 ## A NEW APPROACH
