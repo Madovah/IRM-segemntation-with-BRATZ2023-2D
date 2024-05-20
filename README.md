@@ -5,7 +5,9 @@ Brain tumors are among the deadliest diseases worldwide, with gliomas being part
 
 All BraTS23 mpMRI scans are available as NIfTI files, categorized as T2 Fluid Attenuated Inversion Recovery (Flair), native T1 (T1), T2-weighted (T2), and post-contrast T1-weighted (T1Gd). These scans were obtained using different clinical protocols and various scanners from multiple institutions.
 
-Annotations include GD-enhancing tumor (ET — label 3), peritumoral edematous/invaded tissue (ED — label 2), and necrotic tumor core (NCR — label 1). More details are available here.
+Annotations include GD-enhancing tumor (ET — label 3), peritumoral edematous/invaded tissue (ED — label 2), and necrotic tumor core (NCR — label 1). 
+
+For details --> [BRATZ-2023](https://www.synapse.org/#!Synapse:syn51156910/wiki/622351)
 
 The dataset comprises 1251 patient cases labeled by expert radiologists. However, cases in the validation set are not labeled.
 
