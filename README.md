@@ -13,5 +13,5 @@ The dataset is organized in the following directory structure. Please make any n
 
 ![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/IRM2.png)
 
-image from Baid et al.
+image from [Baid et al](https://arxiv.org/pdf/2107.02314v1)
 
