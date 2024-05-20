@@ -22,7 +22,7 @@ The dataset is organized in the following directory structure:
 
 In the code provided, we devised the Dataset into 90% Training, 5% Test and 5% Validation. We used the most populated slice with pixels from each NIfTI files as a 2D entry. for the training, we used a new approach to consume way less ressources ( executed using GPU L4 in [Google Collab](https://colab.google) ): First we tried to train the model on each type of file, then we englobed all the files in the training to compare the five approches ( obviousely the results were better with some than others).
 
-## Evaluation
+## EVALUATION
 
 We also used four of Pytorch Evaluation Metrics: 
 - Mean Squared Error (MSE): Measures the average squared difference between the predicted and actual values.
