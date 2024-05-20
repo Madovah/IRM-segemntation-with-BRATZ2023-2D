@@ -8,25 +8,7 @@ The dataset comprises 1251 patient cases labeled by expert radiologists. However
 
 The dataset is organized in the following directory structure. Please make any necessary adjustments based on your specific requirements and ensure to include additional supporting files in the dataset directory.
 
-Dataset/
-├── training/
-│   ├── ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/
-│       ├── BraTS-GLI-00000-000/
-│       │   ├── BraTS-GLI-00000-000-t2f.nii.gz
-│       │   ├── BraTS-GLI-00000-000-seg.nii.gz
-│       │   ├── BraTS-GLI-00000-000-t1n.nii.gz
-│       │   ├── BraTS-GLI-00000-000-t2w.nii.gz
-│       │   └── BraTS-GLI-00000-000-t1c.nii.gz
-│       └── ...
-│   
-└── validation/
-    └── ASNR-MICCAI-BraTS2023-GLI-Challenge-ValidationData/
-        ├── BraTS-GLI-00001-000/
-        │   ├── BraTS-GLI-00001-000-t1c.nii.gz
-        │   ├── BraTS-GLI-00001-000-t2f.nii.gz
-        │   ├── BraTS-GLI-00001-000-t1n.nii.gz
-        │   └── BraTS-GLI-00001-000-t2w.nii.gz
-        └── ...
+
 
 
 ![Example Image](https://github.com/your-username/your-repository/raw/main/images/example.png)
