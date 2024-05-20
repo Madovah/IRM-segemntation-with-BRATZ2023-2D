@@ -30,9 +30,9 @@ We also used four of Pytorch Evaluation Metrics:
 - Mean Intersection Over Union (MIoU): is a common evaluation metric used in semantic segmentation tasks to measure the accuracy of the model's predictions.
 - Loss Function (Loss): computes the discrepancy between the predicted output and the true target output for a single data point. It is a scalar value.
 
-## UNET ARCHITECTURE  
+## Unet ARCHITECTURE  
 
-We used UNET architecture from the [segmentation modeL.pytorch](https://github.com/qubvel/segmentation_models.pytorch).
+We used Unet architecture from the [segmentation modeL.pytorch](https://github.com/qubvel/segmentation_models.pytorch).
 
 
 ![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/IRM2.png)
