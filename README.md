@@ -22,6 +22,14 @@ The dataset is organized in the following directory structure:
 
 In the code provided, we devised the Dataset into 90% Training, 5% Test and 5% Validation. We used the most populated slice with pixels from each NIfTI files as a 2D entry. for the training, we used a new approach to consume way less ressources ( executed using GPU L4 in [Google Collab](https://colab.google) ): First we tried to train the model on each type of file, then we englobed all the files in the training to compare the five approches ( obviousely the results were better with some than others).
 
+## Evaluation
+
+We also used four of Pytorch Evaluation Metrics: 
+- Mean Squared Error (MSE): Measures the average squared difference between the predicted and actual values.
+- Pixel Accuracy (PA):  measures the proportion of correctly predicted pixels to the total number of pixels.
+- Mean Intersection Over Union (MIoU): is a common evaluation metric used in semantic segmentation tasks to measure the accuracy of the model's predictions.
+- Loss Function (Loss): computes the discrepancy between the predicted output and the true target output for a single data point. It is a scalar value.
+
 We used UNET architecture from the [segmentation modeL.pytorch](https://github.com/qubvel/segmentation_models.pytorch).
 
 
