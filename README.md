@@ -19,8 +19,13 @@ The dataset is organized in the following directory structure:
 ![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/DATASET_Structure.jpg)
 
 ## A NEW APPROACH
+we devised the Training Dataset into 90% Training, 5% Test and 5% Validation. We used the most populated slice with pixels from each NIfTI files as a 2D entry. for the training, we used a new approach to consume way less ressources ( executed using GPU L4 in [Google Collab](https://colab.google) )
 
-In the code provided, we devised the Training Dataset into 90% Training, 5% Test and 5% Validation. We used the most populated slice with pixels from each NIfTI files as a 2D entry. for the training, we used a new approach to consume way less ressources ( executed using GPU L4 in [Google Collab](https://colab.google) ): First we tried to train the model on each type of scan then fused the predicted masks into one result of an image 2D (Late Fusion) , then we englobed all the scans in the training to compare the two approches ( Early Fusion).
+# First Approach: Early Fusion
+We included all the scans in the training to produce a single predicted mask 2D image.
+
+# Second Approach: Late Fusion
+We trained the model on each type of scan then fused the predicted masks into one result of an image 2D, contructing the final fused mask is done with the majoritarian voting between the previous predicted masks, while giving the mask of the best method in terms of global results a double vote.
 
 In the final results, we compared the two methods: Early Fusion and Late Fusion visually, also using metrics as well.
 
@@ -34,7 +39,7 @@ We also used four of Pytorch Evaluation Metrics:
 
 ## Unet ARCHITECTURE  
 
-We used Unet architecture from the [segmentation modeL.pytorch](https://github.com/qubvel/segmentation_models.pytorch).
+We used DEEPLABV+, an evolved Unet architecture from the [segmentation modeL.pytorch](https://github.com/qubvel/segmentation_models.pytorch).
 
 
 ![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/IRM2.png)
