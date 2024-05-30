@@ -16,7 +16,7 @@ The dataset comprises 1251 patient cases labeled by expert radiologists. However
 
 The dataset is organized in the following directory structure:
 
-![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/DATASET_STRUCTURE.jpg)
+![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/DATASET_Structure.jpg)
 
 ## A NEW APPROACH
 
