@@ -40,6 +40,8 @@ Exemple:
 
 ![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/ex_t1c.png)
 
+Captivated & altered from :Overview of a Neural Network’s Learning Process Neural Networks and Deep Learning Course: Part 8 by Rukshan Pramoditha
+
 In the final results, we compared the two methods: Early Fusion and Late Fusion visually, also using metrics as well.
 
 ## EVALUATION
