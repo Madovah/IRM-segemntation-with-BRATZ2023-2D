@@ -24,6 +24,10 @@ we devised the Training Dataset into 90% Training, 5% Test and 5% Validation. We
 # First Approach: Early Fusion
 We included all the scans in the training to produce a single predicted mask 2D image.
 
+Exemple:
+
+![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/Deeplabv%2B.png)
+
 # Second Approach: Late Fusion
 We trained the model on each type of scan then fused the predicted masks into one result of an image 2D, contructing the final fused mask is done with the majoritarian voting between the previous predicted masks, while giving the mask of the best method in terms of global results a double vote.
 
