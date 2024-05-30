@@ -31,6 +31,10 @@ Exemple:
 # Second Approach: Late Fusion
 We trained the model on each type of scan then fused the predicted masks into one result of an image 2D, contructing the final fused mask is done with the majoritarian voting between the previous predicted masks, while giving the mask of the best method in terms of global results a double vote.
 
+Exemple: 
+
+![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/ex_t1c.png)
+
 In the final results, we compared the two methods: Early Fusion and Late Fusion visually, also using metrics as well.
 
 ## EVALUATION
