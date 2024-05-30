@@ -10,6 +10,11 @@ All BraTS23 mpMRI scans are available as NIfTI files, categorized as T2 Fluid At
 
 Annotations include GD-enhancing tumor (ET — label 3), peritumoral edematous/invaded tissue (ED — label 2), and necrotic tumor core (NCR — label 1). 
 
+
+![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/IRM2.png)
+
+image from [Baid et al](https://arxiv.org/pdf/2107.02314v1)
+
 For details --> [BRATZ-2023](https://www.synapse.org/#!Synapse:syn51156910/wiki/622351)
 
 The dataset comprises 1251 patient cases labeled by expert radiologists. However, cases in the validation set are not labeled.
@@ -48,9 +53,4 @@ We also used four of Pytorch Evaluation Metrics:
 ## Unet ARCHITECTURE  
 
 We used DEEPLABV+, an evolved Unet architecture from the [segmentation modeL.pytorch](https://github.com/qubvel/segmentation_models.pytorch).
-
-
-![Example Image](https://github.com/Madovah/IRM-segemntation-with-BRATZ2023-2D/blob/master/IRM2.png)
-
-image from [Baid et al](https://arxiv.org/pdf/2107.02314v1)
 
