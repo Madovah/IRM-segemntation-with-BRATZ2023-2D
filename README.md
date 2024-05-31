@@ -1,4 +1,4 @@
-## -MRI SEGMENTATION WITH PYTORCH-UNET/BRATZ-2023-
+## MRI SEGMENTATION WITH PYTORCH-UNET/BRATZ-2023
 Brain tumors are among the deadliest diseases worldwide, with gliomas being particularly common. Physicians and radiologists rely on MRI and CT scans for diagnosis. However, this process is susceptible to human error and can be time-consuming, especially when a timely diagnosis is critical. To assist radiologists, deep learning is being utilized. Deep learning has demonstrated remarkable performance in medical imaging over the years. Consequently, a large dataset is being used to train AI models to ensure accurate diagnosis and facilitate early treatment of the disease.
 
 
